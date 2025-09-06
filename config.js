@@ -2,12 +2,12 @@ require('dotenv').config();
 const isTrue = (x) => x === 'true' || x === true;
 
 module.exports = {
-    prefix: process.env.PREFIX || '',
-    owner: process.env.OWNER_NUMBER || '',
+    prefix: process.env.PREFIX || '.',
+    owner: process.env.OWNER_NUMBER || '919233585869',
     sudo: process.env.SUDO || '',
-    packname: process.env.PACKNAME || 'ɠαɾϝιҽʅɗ',
-    author: process.env.AUTHOR || 'ɳαxσɾ',
-    SESSION_ID: process.env.SESSION_ID || '',
+    packname: process.env.PACKNAME || 'ALONG',
+    author: process.env.AUTHOR || 'Along',
+    SESSION_ID: process.env.SESSION_ID || 'Garfield~KA4TTtyv',
     THEME: process.env.THEME || '', //Garfield
     maxFileSize: parseInt(process.env.MAX_FILE_SIZE) || 100 * 1024 * 1024,
     timezone: process.env.TIMEZONE || 'UTC',
